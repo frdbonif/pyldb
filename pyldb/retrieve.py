@@ -24,4 +24,5 @@ def get_board(crs, token):
 
     service = client.service
     result = service.GetDepartureBoard(20, crs)
+    print(result)
     return result
