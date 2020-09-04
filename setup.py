@@ -2,9 +2,9 @@ from setuptools import setup, find_packages
 
 setup(
     name='pyLDB',
-    version='0.5.0',
-    url='https://github.com/jwg4/pyldb',
-    author='Jack Grahl',
+    version='0.5.1',
+    url='https://github.com/frdbonif/pyldb',
+    author='Jack Grahl','Fred Boniface'
     author_email='jack.grahl@gmail.com',
     description='Retrieve and format data from the Live Departure Board',
     long_description=(
