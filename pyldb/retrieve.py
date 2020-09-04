@@ -23,6 +23,6 @@ def get_board(crs, token):
     client.set_options(soapheaders=access_token)
 
     service = client.service
-    result = service.GetDepartureBoard(20, crs)
+    result = service.GetArrDepBoardWithDetails(20, crs)
     print(result)
     return result
